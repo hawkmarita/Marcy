@@ -1,0 +1,283 @@
+.back {
+	background: url(../image/back.png) no-repeat;
+/* 	width: 1280px;
+	height: 100%; */
+	background-size: cover; 
+}
+.marcy {
+    font-family: Georgia;
+	text-align: center;
+	line-height: 0.2;
+ 	/* margin: auto;  */
+    font-size: 48px;
+    font-weight: normal;
+	color: #ffffff;
+/* 	background-size: cover; */
+}
+.greenrect {
+	background-image: url(../image/greenrec.png);
+	width:220px;
+    height:100px;
+    margin: auto;
+	padding:2px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.story {
+	position: relative;
+	top: -120px;
+	font-family: Arial;
+	text-align: center;
+	font-size: 150px;
+    font-weight: 500;
+	color: #F5F5F5;
+	line-height: 0.1;
+	text-transform: uppercase;
+}
+#layer1, #layer2 {
+    position: relative; 
+   } 
+#layer1 { z-index: 2; }
+#layer2 { z-index: 1; }
+
+.stripes {
+    background-image: url(../image/stripes.png);
+	position: relative;
+	top: -350px;
+	left: 100px;
+	width:42px;
+    height:34px;
+}
+.travel1, .travel2, .quote {
+	font-family: Arial;
+	text-align: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #A9A9A9;
+	letter-spacing: 4px;
+}
+.travel1 {
+	position: relative;
+	top: -200px;
+	left: 100px;
+}
+.travel2 {
+	text-align: center;
+}
+.quote {
+	position: relative;
+	left: 650px;
+}
+.nullam, .donec {
+	font-family: Times New Roman;
+	font-size: 40px;
+	color: #2F4F4F;
+}
+.nulpos1 {
+	width:500px;
+	position: relative;
+	top: -210px;
+	left: 100px;
+}
+.nulpos2 {
+	width:500px;
+	position: relative;
+	top: -20px; 
+	left: 650px;
+}
+.donec {
+	width:800px;
+	text-align: center; 
+	margin: auto;
+}
+.etilam, .don {
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: #696969;
+	line-height:1.5;
+}
+.etilam {
+	position: relative;
+	top: -190px;
+	left: 100px;
+	width:400px;
+}
+.don {
+	position: relative;
+	top: 80px;
+	left: 300px;
+	width: 700px;
+}
+.full {
+	background-image: url(../image/fulls.png);
+	width:240px;
+    height:120px;
+}
+.pos1 {
+	position: relative;
+	top: -220px;
+	left: 70px;
+}
+.pos2 {
+	position: relative;
+	top: 80px;
+	left: 280px;
+}
+.pos3 {
+	position: relative;
+	top: 300px;
+	left: 280px;
+}
+.pos4 {
+    position: relative;
+	top: -75px;
+	left: 650px;
+}
+.mount {
+	background-image: url(../image/mount.png);
+	width:600px;
+	height:460px; 
+	background-size: 680px 460px;
+	position: absolute;
+	right: 0px;
+	top: 330px;
+	border: 15px solid white;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.girl {
+	background-image: url(../image/girl.png);
+	width:300px;
+	height:190px; 
+	background-size: 300px 190px;
+	position: absolute;
+	right: 380px;
+	top: 380px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.man {
+	background-image: url(../image/man.png);
+	width:750px;
+	height:510px; 
+	background-size: 750px 510px;
+	border: 15px solid white;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	background-position: center;
+	margin: auto;
+}
+.video {
+	background-image: url(../image/videos.png);
+	width:1250px;
+	height:450px;
+	background-size: 1250px 450px;
+	position: relative;
+	top: 100px;
+}
+.smile {
+	background-image: url(../image/smile.png);
+	width:350px;
+	height:230px;
+	background-size: 350px 230px;
+	border: 15px solid white;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	position: relative;
+	left: 220px;
+	top: 250px;
+}
+.whiterec {
+	position: relative;
+	left: 395px;
+	top: -10px; 
+	width: 710px;
+	height: 300px;
+	background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+	
+}
+.donecid {
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 25px;
+	color: #2F4F4F;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 80px;
+	padding-right: 50px;
+	line-height:1.5;
+	transform:scale(1,1.2);
+}
+.phrase {
+	font-family: Arial;
+	text-align: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+.ven {
+    color: #696969;
+}
+.life {
+	color: #DCDCDC;
+}
+.forest {
+	background-image: url(../image/forest.png);
+	width:1250px;
+	height:650px;
+	background-size: 1550px 900px;
+	position: relative;
+	top: 100px;
+}
+.greenrect2 {
+	position: absolute;
+	top: 150px;
+	left: 275px;
+	width: 700px;
+	height: 350px;
+	background: #2F4F4F;
+	opacity: 0.9;
+}
+.like {
+	font-family: Arial;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height:1.5;
+	color: #DCDCDC;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	transform:scale(1.1,1);
+}
+.ovalrect {
+	width: 250px;
+	height: 45px;
+	background: black;
+	opacity: 0.4;
+	border-radius: 100px / 100px;
+	border: 1px solid white;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 80px 30px;
+	
+}
+td {
+	width: 300px;
+}
+.name {
+	font-family: Arial;
+	text-align: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	padding-left: 35px;
+}
+.subs {
+	background: url(../image/sub.png) no-repeat;
+	width:240px;
+    height:45px;
+	position: relative;
+	left: 510px;
+	top: 390px;
+}
