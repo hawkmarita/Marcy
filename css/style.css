@@ -58,14 +58,11 @@
 .travel1 {
 	position: relative;
 	top: -200px;
-	left: 100px;
+	text-align: center;
+	right: 480px;
 }
 .travel2 {
 	text-align: center;
-}
-.quote {
-	position: relative;
-	left: 650px;
 }
 .nullam, .donec {
 	font-family: Times New Roman;
